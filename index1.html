@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher rating System</title>
+    <style>
+        #userName{
+            background-color: white;
+            font: black;
+        }
+        #passWord{
+            background-color: white; 
+        }
+        body{
+            background-image: url('bg.jpg');
+            background-repeat: none;
+            background-size: cover;
+            
+        }
+        
+        .body-content {
+            padding-top: 20vh;
+        }
+        
+        .container {
+            width: 350px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 15px;
+            background: rgb(211,211,211);
+            transform: translate(-36vw,-16vh);
+        }
+        
+        .logo {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding-top: 0;
+        }
+        
+        .logo img {
+            width: 150px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-item {
+            margin: 5px;
+            padding-bottom: 10px;
+            display: flex;
+        }
+        
+        .form-item label {
+            display: block;
+            padding: 2px;
+            font-size: 20px;
+            width: 100px;
+        }
+        
+        .form-item input {
+            width: 320px;
+            height: 35px;
+            border: 2px solid #e1dede69;
+            border-radius: 20px;
+            background: #e1dede69;
+            color: black;
+        }
+        
+        .form-btns {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 10px 0;
+        }
+        
+        .form-btns button {
+            margin: auto;
+            font-size: 20px;
+            padding: 5px 15px;
+            border: 2px solid;
+            border-radius: 15px;
+            color: white;
+            background: #178cc6;
+            width: 280px;
+            cursor: pointer;
+        }
+        
+        .options {
+            padding-top: 15px;
+            margin: auto;
+        }
+        
+        .options a {
+            text-decoration: none;
+            color: black;
+            margin: 0 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+
+        }
+        .options a:hover {
+            color: grey;
+ 
+        }
+        
+        p {
+            text-align: center;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #Heading{
+            transform: translate(2.8vw,3vh);
+font-size: 33px;
+font-size: 33px;
+z-index: 2;
+position: absolute;
+        }
+
+        #login{
+            transform: translate(0vw,0vh);
+        }
+
+        #img{
+            transform: translate(0vw,4vh);
+
+        }
+        #heading1{
+            color: red;
+  transform: translate(5vw,5vh);
+}
+        
+    </style>
+</head>
+
+<body>
+    <h1 id="heading1">Invalid Credential</h1>
+    <h1 id="Heading">Teacher Rating System</h1>
+    <div class="body-content">
+
+        <div class="container">
+            <div class="logo">
+                <img src="Untitled design.png" alt="TRS" srcset="" id="img">
+            </div>
+            <div class="login-form" id="login">
+                <form action="index.php" method="post">
+                    <div class="form-item">
+                        <input type="text" name="userName" id="userName" placeholder="Username">
+                    </div>
+                    <div class="form-item">
+                        <input type="password" name="passWord" id="passWord" placeholder="Password">
+                    </div>
+
+                    <div class="form-btns">
+
+                        <button type="submit">Login</button>
+                        <div class="options">
+                            <p style="font-size:13px;">Forget Password? (Contact Your Respected Mentor)</p>
+                        </div>
+
+
+                    </div>
+               
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

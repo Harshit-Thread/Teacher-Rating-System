@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet"> 
+    <style>
+        body{
+            background-image: url('Students.png');
+            background-repeat: no-repeat;
+            background-size: 65%;
+        
+        }
+
+        #container{
+            transform: translate(31vw,5vh);
+            width: 350px;
+            height: 477px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 15px;
+            background: rgb(211,211,211);
+
+}
+
+.form-item {
+            margin: 5px;
+            padding-bottom: 10px;
+            display: flex;
+        }
+
+select{
+
+    transform: translate(0vw,-5vh);
+font-size: 20px;
+width: 280px;
+border-radius: 13px;
+border: 1px solid black;
+}
+
+.logo {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding-top: 0;
+        }
+        
+        .logo img {
+            width: 212px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-item label {
+            display: block;
+            padding: 2px;
+            font-size: 20px;
+            width: 100px;
+        }
+        
+        .form-item input {
+            width: 320px;
+            height: 35px;
+            border: 2px solid #e1dede69;
+            border-radius: 20px;
+            background: #e1dede69;
+            color: black;
+        }
+        
+        .form-btns {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 10px 0;
+        }
+        
+        .form-btns button {
+            margin: auto;
+font-size: 25px;
+padding: 5px 15px;
+border: 2px solid;
+border-radius: 15px;
+color: white;
+background: #178cc6;
+width: 280px;
+cursor: pointer;
+transform: translate(0vw,-3vh);
+        }
+        #Heading{
+            transform: translate(69.8vw,5vh);
+font-size: 33px;
+z-index: 2;
+position: absolute;
+        }
+        
+        #quote{
+            transform: translate(5vw,11vh);
+    font-size: 57px;
+    font-family: 'Water Brush', cursive;
+        }
+
+        #quote:hover{
+            color: rgb(58, 201, 229);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Heading">Teacher Rating System</h1>
+    <div id="container">
+        <div class="logo">
+            <img src="Untitled design.png" alt="TRS" srcset="" id="img">
+        </div>
+        <div class="login-form" id="login">
+           
+                <div class="form-item">
+                    <select name="department" id="dept">
+                        <option value="1">Select Your Department</option>
+                        <option value="2">MMEC</option>
+                        </select>
+                        <br><br>
+                </div>
+                <div class="form-item">
+                    <select name="branch" id="brnch">
+                        <option value="1">Select Your Branch</option>
+                        <option value="2">Computer Science</option>
+                        <option value="3">Cloud Computing</option>
+                        <option value="3">Data Science</option></select>
+                        <br><br>
+                </div>
+
+                <div class="form-item">
+                    <select name="Semester" id="Sem">
+                        <option value="1">Select Your Semester</option>
+                        <option value="2">SEM-IV</option>
+                        </select>
+                </div>
+
+                <div class="form-btns">
+
+                   <a href="feedback.html"><button >Submit</button></a> 
+                    
+
+
+                </div>
+           
+    </div>
+</div>
+
+<footer>
+    <h1 id="quote">"Teachers can change lives with the right mix of chalk and challenges."</h1>
+</footer>
+</body>
+</html>

@@ -1,0 +1,322 @@
+body{
+    background-color: rgb(184, 169, 169);
+}
+.h1{
+background-color: #ec2424;
+display: inline-block;
+transform: translate(64vh,-269.5vw);
+width: 45.6vw;
+border-radius: 14px;
+color: white;
+height: 40px;
+}
+.basic{
+    background-color: white;
+    display: inline-block;
+    height: 47vh;
+    width: 45vw;
+    border-radius: 14px;
+}
+.heading{
+    background-color: white;
+display: inline-block;
+transform: translate(53vh,0vw);
+width: 45vw;
+border-radius: 14px;
+}
+.red{
+background-color: #ec2424;
+height: 2vh;
+width: 45vw;
+
+}
+.input{
+    background-color: white;
+    transform: translate(33vw,-31vh);
+    border-radius: 14px;
+    display: inline-block;
+    outline: none;
+}
+.basic{ background-color: white;
+display: inline-block;
+transform: translate(31vw,1.5vh);
+height: 47vh;
+width: 45vw;
+border-radius: 14px;
+}
+
+.op{
+    transform: translate(25vw,-30vh);
+    border-radius: 12px;
+    width: 7vw;
+    padding-left: 23px;
+    background-color:white;
+    border: 2px solid gray;
+    font-size: 13px;
+    color: #413a47;
+    }
+
+.feedback{
+
+transform: translate(-2.3vw,-8vh);
+display: inline-block;
+transform: translate(29.7vw,-29vh);
+width: 42.6vw;
+margin: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 14px;
+padding: 20px;
+height: 35vh;
+}
+.feedback1{
+display: inline-block;
+background-color: white;
+
+transform: translate(-2.7vw,2vh);
+width: 42.6vw;
+margin: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 14px;
+padding: 20px;
+height: 56vh;
+}
+.feedback2{
+background-color: white;
+display: inline-block;
+transform: translate(-2.7vw,-12.7vh);
+width: 42.6vw;
+margin: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 14px;
+padding: 20px;
+height: 56vh;
+}
+.feedback3{
+background-color: white;
+display: inline-block;
+transform: translate(-2.7vw,-26vh);
+width: 42.6vw;
+margin: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 14px;
+padding: 20px;
+height: 58vh;
+}
+.feedback4{
+background-color: white;
+display: inline-block;
+transform: translate(-2.7vw,-38vh);
+width: 42.6vw;
+margin: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+border-radius: 14px;
+padding: 20px;
+height: 56vh;
+}
+
+.feedback5{
+    background-color: white;
+    display: inline-block;
+    transform: translate(-2.7vw,-50vh);
+    width: 42.6vw;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 14px;
+    padding: 20px;
+    height: 58vh;
+    }
+
+    .feedback6{
+        background-color: white;
+        display: inline-block;
+        transform: translate(-2.7vw,-62vh);
+        width: 42.6vw;
+        margin: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        border-radius: 14px;
+        padding: 20px;
+        height: 58vh;
+        }
+
+        .feedback7{
+            background-color: white;
+            display: inline-block;
+            transform: translate(-2.7vw,-74vh);
+            width: 42.6vw;
+            margin: 20px;
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            border-radius: 14px;
+            padding: 20px;
+            height: 58vh;
+            }
+
+            .feedback8{
+                background-color: white;
+                display: inline-block;
+                transform: translate(-2.7vw,-86vh);
+                width: 42.6vw;
+                margin: 20px;
+                margin-top: 20px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                border-radius: 14px;
+                padding: 20px;
+                height: 56vh;
+                }
+                .feedback9{
+                    background-color: white;
+                    display: inline-block;
+                    transform: translate(-2.7vw,-98vh);
+                    width: 42.6vw;
+                    margin: 20px;
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+                    border-radius: 14px;
+                    padding: 20px;
+                    height: 56vh;
+                    }
+                    .feedback10{
+                        background-color: white;
+                        display: inline-block;
+                        transform: translate(-2.7vw,-110vh);
+                        width: 42.6vw;
+                        margin: 20px;
+                        margin-top: 20px;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 20px;
+                        border-radius: 14px;
+                        padding: 20px;
+                        height: 56vh;
+                        }
+
+                        .feedback11{
+                            background-color: white;
+                            display: inline-block;
+                            transform: translate(-2.7vw,-122vh);
+                            width: 42.6vw;
+                            margin: 20px;
+                            margin-top: 20px;
+                            margin-right: 20px;
+                            margin-bottom: 20px;
+                            margin-left: 20px;
+                            border-radius: 14px;
+                            padding: 20px;
+                            height: 58vh;
+                            }
+                            .feedback12{
+                                background-color: white;
+                                display: inline-block;
+                                transform: translate(-2.7vw,-127vh);
+                                width: 42.6vw;
+                                margin: 20px;
+                                margin-top: 20px;
+                                margin-right: 20px;
+                                margin-bottom: 20px;
+                                margin-left: 20px;
+                                border-radius: 14px;
+                                padding: 20px;
+                                height: 62vh;
+                                }
+                                .feedback13{
+                                    background-color: white;
+                                    display: inline-block;
+                                    transform: translate(-2.7vw,-127vh);
+                                    width: 42.6vw;
+                                    margin: 20px;
+                                    margin-top: 20px;
+                                    margin-right: 20px;
+                                    margin-bottom: 20px;
+                                    margin-left: 20px;
+                                    border-radius: 14px;
+                                    padding: 20px;
+                                    height: 60vh;
+                                    }
+                                    .feedback14{
+                                        background-color: white;
+                                        display: inline-block;
+                                        transform: translate(-2.7vw,-127vh);
+                                        width: 42.6vw;
+                                        margin: 20px;
+                                        margin-top: 20px;
+                                        margin-right: 20px;
+                                        margin-bottom: 20px;
+                                        margin-left: 20px;
+                                        border-radius: 14px;
+                                        padding: 20px;
+                                        height: 64vh;
+                                        }
+                                        .feedback15{
+                                            background-color: white;
+                                            display: inline-block;
+                                            transform: translate(-2.7vw,-129vh);
+                                            width: 42.6vw;
+                                            margin: 20px;
+                                            margin-top: 20px;
+                                            margin-right: 20px;
+                                            margin-bottom: 20px;
+                                            margin-left: 20px;
+                                            border-radius: 14px;
+                                            padding: 20px;
+                                            height: 60vh;
+                                            }
+
+                                            .feedback16{
+                                                background-color: white;
+                                                display: inline-block;
+                                                transform: translate(-2.7vw,-129vh);
+                                                width: 42.6vw;
+                                                margin: 20px;
+                                                margin-top: 20px;
+                                                margin-right: 20px;
+                                                margin-bottom: 20px;
+                                                margin-left: 20px;
+                                                border-radius: 14px;
+                                                padding: 20px;
+                                                height: 56vh;
+                                                }
+                                            
+                                            input[type="number"]{
+                                                outline: none;
+                                                -moz-appearance: textfield;
+                                            }
+                                            input[type="number"]::-webkit-outer-spin-button,
+                                            input[type="number"]::-webkit-inner-spin-button{
+                                                -webkit-appearance: none;
+                                                margin: 0;
+                                            }
+                        
+                    
+                
+            
+        
+    
+    
+
